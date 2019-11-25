@@ -38,6 +38,8 @@ a:visited{
 
 body {
     margin: 25px 50px;
+    background-image: url("https://images.pexels.com/photos/1462892/pexels-photo-1462892.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-repeat: no-repeat;
 }
 
 #quote {
@@ -50,13 +52,7 @@ body {
     margin-top: 80px;
 }
 
-body {
-    background: linear-gradient(90deg, rgb(237, 22, 97), rgb(90, 25, 20));
-    /* background-image: url("https://www.averiecooks.com/wp-content/uploads/2019/08/sheetpanfriedrice-9.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom, right;
-*/
-}
+
 #quote {
     font-style: italic;
 }
@@ -91,21 +87,18 @@ p:first-child {
     font-weight: bold;
 }
 
-#float {
-    float: inline ;
-}
+
 
 .image {
     float: left;
     margin: 30px;
-    outline: left;
     width: 50%;
     height: 50%;
 }
 
 footer {
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     position:fixed;
     overflow-y:hidden;
     overflow-x:hidden;
